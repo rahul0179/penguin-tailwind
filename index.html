@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CSS </title>
+    <!-- tailwind css link  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        penguin: '#fffbf0',
+                    }
+                }
+            }
+        }
+    </script>
+
+</head>
+
+<body>
+    <header>
+        <section class="bg-penguin mx-auto pb-14  sm:flex  items-center justify-around ">
+            <div class="text-center sm:flex sm:flex-col sm:text-left">
+                <h1 class="text-5xl font-bold text-yellow-400">BE THE PENGUINS</h1>
+                <h1 class="text-5xl font-bold">OF WINTER</h1>
+                <h3 class="my-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br> Dignissimos, ipsum.</h3>
+                <button
+                    class="border-none bg-lime-800 text-white w-40 h-14 flex justify-center items-center rounded-lg m-auto sm:m-0">
+                    <img class="w-5 h-16.5 pr-2" src="icons/shopping-cart 1.png" alt=""> BUY NOW</button>
+            </div>
+
+            <div>
+                <img class="w-1/2 m-auto pt-6  sm:w-full" src="images/model.png" alt="">
+            </div>
+        </section>
+
+
+    </header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
